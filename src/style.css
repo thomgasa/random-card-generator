@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  background-size: 90%;
+  justify-content: center;
+  background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/16914wide.jpg");
+}
+
+.card {
+  background-color: white;
+  width: 375px;
+  height: 450px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.top,
+.bottom {
+  height: 30%;
+}
+
+.middle {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanBotton {
+  float: right;
+  transform: rotate(-180deg);
+}
+
+h1,
+span {
+  font-size: 120px;
+  font-weight: bold;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#button {
+  justify-content: center;
+  margin-inline: 100px;
+  border-radius: 25px;
+}
+
+h2 {
+  color: red;
+  text-justify: auto;
+  font-size: 50px;
+  font-weight: bold;
+}
